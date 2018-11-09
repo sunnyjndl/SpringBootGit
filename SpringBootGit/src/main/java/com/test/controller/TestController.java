@@ -11,4 +11,10 @@ public class TestController {
 	{
 		return "This is a test method";
 	}
+	
+	@RequestMapping(value="/test1",method=RequestMethod.GET)
+	public String testMethod1()
+	{
+		return "This is a test method1";
+	}
 }
